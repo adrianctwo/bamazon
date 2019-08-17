@@ -72,7 +72,13 @@ function start() {
                         start();
                     });
             } else {
+                console.log("\n\n");
+                console.log("========== Summary ==========")
+                console.log("\n");
                 console.log("Insufficient Stock.");
+                console.log("\n");
+                console.log("=============================")
+                console.log("\n\n");
                 start();
             }
         });
